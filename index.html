@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiby-Online | موسوعة طبية</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">Tiby-Online</div>
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">الرئيسية</a></li>
+      <li><a href="#health">الصحة العامة</a></li>
+      <li><a href="#diseases">الأمراض</a></li>
+      <li><a href="#herbs">الأعشاب والمكملات</a></li>
+      <li><a href="#faq">الأسئلة الشائعة</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>مرحبًا بكم في موسوعة Tiby-Online</h1>
+  <p>موقع طبي تعليمي لتثقيف الصحة العامة والمعلومات الطبية.</p>
+</section>
+
+<section class="search-section">
+  <div class="search-wrapper">
+    <input type="text" id="searchInput" placeholder="ابحث عن نصائح، أمراض، أعشاب...">
+    <button id="clearBtn"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <ul id="searchResults"></ul>
+</section>
+
+<section id="health" class="section-color1">
+  <h2><i class="fa-solid fa-heart"></i> الصحة العامة</h2>
+  <div class="cards"></div>
+</section>
+
+<section id="diseases" class="section-color2">
+  <h2><i class="fa-solid fa-hospital"></i> الأمراض الشائعة</h2>
+  <div class="cards"></div>
+</section>
+
+<section id="herbs" class="section-color3">
+  <h2><i class="fa-solid fa-leaf"></i> الأعشاب والمكملات</h2>
+  <div class="cards"></div>
+</section>
+
+<section id="faq">
+  <h2><i class="fa-solid fa-question-circle"></i> الأسئلة الشائعة</h2>
+</section>
+
+<footer>
+  <p>⚠️ المعلومات الطبية هنا للتثقيف فقط وليست بديلاً عن استشارة الطبيب.</p>
+  <p>&copy; 2025 Tiby-Online</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
